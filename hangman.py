@@ -97,11 +97,11 @@ class Hangman:
         print('\n')
         print ('Letters missed: ',)
         for letter in self.missed_letters:
-            print (letter,)
+            print (letter, end=" ")
         print ()
         print ('Letters guessed: ',)
         for letter in self.guessed_letters:
-            print (letter,)
+            print (letter, end=" ")
         print ()
 
 
